@@ -1,0 +1,69 @@
+#teach_img{
+    width:75vw;
+    height:65vh;
+    position: relative;
+    left:5vw;
+    top:10vh;
+    border-radius: 25px;
+    
+}
+#teach_block{
+    height:80vh;
+    padding: 200px;
+}
+
+#teach_button {
+    text-decoration: none;
+    position: relative;
+    left: 74vw;
+    top:10em;
+    border: none;
+    font-size: 14px;
+    font-family: inherit;
+    color: #fff;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#d44b99,#52d3a1,#03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+   }
+   
+   #teach_button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+   }
+   
+   @keyframes ani {
+    0% {
+     background-position: 0%;
+    }
+   
+    100% {
+     background-position: 400%;
+    }
+   }
+   
+   #teach_button:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#854bcf,#51bb68,#03a9f4);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+   }
+   
+   #teach_button:hover::before {
+    filter: blur(20px);
+   }
+   
+   #teach_button:active {
+    background: linear-gradient(32deg,#03a9f4,#456b8f,#7140a8,#03a9f4);
+   }

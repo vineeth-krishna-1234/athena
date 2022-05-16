@@ -1,0 +1,102 @@
+#signupPage{
+    background-image: linear-gradient(to left top, #e01789, #dd0696, #d800a4, #d100b3, #c60fc3, #ae36d2, #934ade, #7259e6, #3c6be4, #0076d9, #007dc7, #0e81b3);
+    height:100vh;
+    width:100%;
+
+}
+#sign_up_text{
+  position: absolute;
+  font-size: 300px;
+  z-index: 1;
+  top:36%;
+  left: 29.5%;
+  font-family: "Palette+Mosaic";
+  color:white;
+  font-weight: bold;
+
+}
+#signup_logoName{
+  position: relative;
+  width:30vw;
+  left: 40%;
+  top:10%;
+}
+#signup_logo{
+    width:100px;
+    height:100px;
+    position: relative;
+    top:17px;
+}
+.fa-brands{
+  width:100px;
+  height:100px;
+  position: relative;
+  left:-30px;
+  top:30px;
+}
+
+#signup_box{
+  z-index: 2;
+  padding-top: 50px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left:35%;
+    top:20%;
+    max-width:30vw;
+    height: 60vh;
+    margin: none;
+    background: rgba( 242, 242, 242, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+
+}
+.input-field 			  { 
+    position:relative; 
+    margin-bottom:45px; 
+  }
+  input 				{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    border:none;
+    background: rgba( 255, 255, 255, 0.35 );
+    border-radius:5px;
+  }
+  input:focus 		{ outline:none; }
+  
+.form_text_label {
+    color:rgb(0, 0, 0); 
+    font-size:18px;
+    font-weight:bolder;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  input:focus ~ label{
+    top:-20px;
+    font-size:14px;
+    color:#ffffff;
+  }
+  .fa-brands:hover{
+    color:#ffffff;
+    transform: scale(1.1);
+  }
+  #signup_form{
+    position: relative;
+    top:5%;
+  }
+  #submit_button_signin{
+    position: relative;
+    top:5%;
+    left:2%;
+  }

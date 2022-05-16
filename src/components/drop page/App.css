@@ -1,0 +1,10 @@
+*{color: rgb(0, 0, 0);font-family: 'Inconsolata';}
+#home_page{
+  background-image: linear-gradient(to right top, #0dd1da, #00caf0, #14c1ff, #64b4ff, #9aa4ff, #b496f6, #cd87e8, #e376d3, #e56bc0, #e560ad, #e4579a, #e04e87);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  perspective: 5px;
+}
