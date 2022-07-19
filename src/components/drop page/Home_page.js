@@ -1,17 +1,18 @@
 import React from "react"
-import Header from './header';
-import Brain_part from './brain_part';
-import Learn from './learn';
-import Teach from './teach';
+import Header from './header.js';
+import Brain_part from './brain_part.js';
+import Learn from './learn.js';
+import Teach from './teach.js';
 import Footer from './footer';
 
-function Home_page(){
+function HomePage(){
     return (<div><div id="home_page">
     <Header />
     <Brain_part />
   </div>
   <Learn list={["programming","photography","business","music","dance"]} />
   <Teach />
+  
   </div>)
   }
-  export default Home_page;
+  export default HomePage;

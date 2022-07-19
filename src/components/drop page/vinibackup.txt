@@ -1,0 +1,2 @@
+linear-gradient(to right top, #0dd1da, #00caf0, #14c1ff, #64b4ff, #9aa4ff, #b496f6, #cd87e8, #e376d3, #e56bc0, #e560ad, #e4579a, #e04e87);
+<img src={logo} id="login_logo" />

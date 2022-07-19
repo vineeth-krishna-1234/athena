@@ -1,5 +1,6 @@
 #loginPage{
-    background-image: linear-gradient(to left top, #e01789, #dd0696, #d800a4, #d100b3, #c60fc3, #ae36d2, #934ade, #7259e6, #3c6be4, #0076d9, #007dc7, #0e81b3);
+  background-image: linear-gradient(to right top, #0dd1da, #00caf0, #14c1ff, #64b4ff, #9aa4ff, #b496f6, #cd87e8, #e376d3, #e56bc0, #e560ad, #e4579a, #e04e87);
+  ;
     height:100vh;
     width:100%;
 
@@ -81,7 +82,7 @@
     position:absolute;
     pointer-events:none;
     left:5px;
-    top:25px;
+    top:8px;
     transition:0.2s ease all; 
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;

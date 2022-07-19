@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './header.css';
 import logo from './../../image folder/symbol.png';
-import {Link} from 'react-router-dom'
 
+import {Link} from "react-router-dom";
 
 class Header extends Component {
     render() { 
@@ -21,8 +21,8 @@ class Header extends Component {
 
             <div id="sign_up_nav">
             <button class="header_button">Help</button>
-            <button class="header_button"><Link to="/signin" style={{textDecoration:'none'}}>Sign up</Link> </button>
-            <button class="header_button"><Link to="/login" style={{textDecoration:'none'}}>Login</Link></button>
+            <button class="header_button"><Link to="/login" style={{textDecoration:"none"}}>Login</Link></button>
+            <button class="header_button"><Link to="/signUp"  style={{textDecoration:"none"}}>Sign up</Link></button>
             </div>
         </div>);
     }

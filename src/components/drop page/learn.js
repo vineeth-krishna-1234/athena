@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import "./learn.css";
-import pythonimg from './../../image folder/python.png';
 import musicImg from '../../image folder/music.png'
 
 class Learn extends Component {
     constructor(props) {
       super(props);
       this.list=props.list;
+      this.imagesrc=[""]
     }
     container(a){
       

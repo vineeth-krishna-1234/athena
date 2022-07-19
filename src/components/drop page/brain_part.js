@@ -8,7 +8,7 @@ class Brain_part
     render() { 
         return (<div id="main_upper_block">
             <div id="intro_block">
-                <div id="main_text_brain">None of is us smart as all of us<br/><p style={{fontSize:'50px',color:'white'}}>lets grow together</p></div>
+                <div id="main_text_brain">None of us are as smart as all of us<br/><p style={{fontSize:'50px',color:'white'}}>lets grow together</p></div>
                     <div>
                         <button id="community_btn">Join the community</button>
                     </div>
